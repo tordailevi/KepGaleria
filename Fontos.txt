@@ -1,0 +1,3 @@
+A "this" az aktuális osztály pédányára mutat, eseménykezelőben használva, function névtelen függvénybe meghívva,
+azt az objektumot jelöli, amelyik az eseményt kiváltotta. Nyílfüggvény essetén ("=>") azt az objektumot jelenti,
+amelyik osztálynak a hatókörében van.

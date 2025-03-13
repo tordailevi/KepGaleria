@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+body{
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(45deg, purple, black, purple);
+    background-size: 200% 200%;
+    height: 100vh;
+}
+
+img{
+    width: 100%;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.galeria .kep {
+   
+}
+.galeria img {
+  
+}
+
+.nagykep div {
+  
+    
+}
+
+.nagykep {
+    display: grid;
+    grid-template-columns: 60px auto 60px;
+    border: 1px solid gray; 
+    border-radius: 10px;
+}
+
+.nagykep img {
+    
+}
+
+button{
+    color: black;
+}
+
+
+@media screen and (max-width:500px) {
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+    
+}
