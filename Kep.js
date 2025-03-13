@@ -6,6 +6,7 @@ export default class Kep{
         this.#cim=cim;
         this.szuloElem=szuloElem;
         this.megjelenit();
+        
     }
 
     megjelenit(){
